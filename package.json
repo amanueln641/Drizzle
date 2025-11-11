@@ -8,6 +8,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/main.ts",
+    "dev:with-studio": "start npm run db:studio && npm run dev",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "db:generate": "npx drizzle-kit generate --name",
